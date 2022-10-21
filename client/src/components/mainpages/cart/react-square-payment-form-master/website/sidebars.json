@@ -1,0 +1,19 @@
+{
+  "docs": {
+    "Getting Started": ["introduction", "paymentform", "payments", "production"],
+    "Guides": ["digitalwallet", "giftcards", "simplecard", "customization"],
+    "Components": [
+      "components/ApplePayButton",
+      "components/Context",
+      "components/CreditCardCVVInput",
+      "components/CreditCardNumberInput",
+      "components/CreditCardExpirationDateInput",
+      "components/CreditCardPostalCodeInput",
+      "components/CreditCardSubmitButton",
+      "components/GooglePayButton",
+      "components/MasterpassButton",
+      "components/SimpleCard",
+      "components/SquarePaymentForm"
+    ]
+  }
+}

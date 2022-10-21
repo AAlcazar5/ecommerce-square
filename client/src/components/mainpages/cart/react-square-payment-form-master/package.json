@@ -1,0 +1,68 @@
+{
+  "name": "react-square-payment-form",
+  "version": "0.7.3",
+  "description": "Take payments with Square securely and easily in your React app",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rm -rf ./lib && tsc && npm run copyfiles",
+    "copyfiles": "cp src/*.css lib/",
+    "prepublish": "npm run lint && npm run test && npm run build",
+    "lint": "eslint src/**/*.tsx",
+    "lint:fix": "eslint --fix src/**/*.tsx",
+    "test": "jest",
+    "tsc": "tsc",
+    "update": "sh updateVersion.sh"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-typescript": "^7.3.3",
+    "@babel/register": "^7.4.4",
+    "@types/chai": "^4.1.7",
+    "@types/enzyme": "^3.9.2",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/jest": "^24.0.13",
+    "@types/react": "^16.8.18",
+    "@types/react-dom": "^16.8.4",
+    "@typescript-eslint/eslint-plugin": "^3.5.0",
+    "@typescript-eslint/parser": "^3.5.0",
+    "babel-core": "^6.26.3",
+    "chai": "^4.2.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.13.1",
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-square": "^15.1.1",
+    "jest": "^24.7.1",
+    "jsdom": "^15.1.0",
+    "prettier": "^1.18.2",
+    "react": "^16.8.6",
+    "react-docgen": "^5.1.0",
+    "react-dom": "^16.8.6",
+    "react-test-renderer": "^16.8.6",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.1.0",
+    "typedoc": "^0.15.8",
+    "typescript": "^3.4.5"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/square/react-square-payment-form.git"
+  },
+  "author": "stephtaylor",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/square/react-square-payment-form/issues"
+  },
+  "homepage": "https://square.github.io/react-square-payment-form/",
+  "dependencies": {}
+}

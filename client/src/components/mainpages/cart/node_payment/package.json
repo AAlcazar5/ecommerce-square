@@ -1,0 +1,24 @@
+{
+  "name": "node-payment",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=production node ./bin/www",
+    "test": "NODE_ENV=sandbox node ./bin/www",
+    "build": "webpack --config prod.config.js"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "cookie-parser": "*",
+    "debug": "*",
+    "dotenv": "^8.2.0",
+    "express": "*",
+    "morgan": "*",
+    "pug": "^3.0.2",
+    "serve-favicon": "*",
+    "square": "^8.0.0"
+  },
+  "devDependencies": {
+    "pug-as-jsx-loader": "^1.0.88"
+  }
+}

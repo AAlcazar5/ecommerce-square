@@ -1,0 +1,96 @@
+.heroContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .column {
+  
+} */
+
+.welcome {
+  margin-top: 150px;
+  margin-bottom: 200px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.magical {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  font-size: 30px;
+}
+
+.shopContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.shop {
+  height: 50px;
+  width: 130px;
+  /* margin-left: 300px; */
+  background-color: rgb(86, 165, 7);
+  color: white;
+}
+
+.arts {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  color: rgb(86, 165, 7);
+}
+
+.solutions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  max-width: 1125px;
+}
+
+.images_row {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.GMO {
+  width: 100%;
+  max-width: 150px;
+  height: 150px;
+}
+
+.Hemp {
+  width: 100%;
+  max-width: 150px;
+  height: 150px;
+}
+
+.Lab {
+  width: 100%;
+  max-width: 150px;
+  height: 150px;
+}
+
+.Money {
+  width: 100%;
+  max-width: 150px;
+  height: 150px;
+}
+
+.Zero {
+  width: 100%;
+  max-width: 150px;
+  height: 150px;
+}
